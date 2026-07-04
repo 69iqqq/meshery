@@ -357,12 +357,6 @@
 
   }
 
-  // Leaf pages
-  & .td-sidebar-nav ul:not(.with-child) > li > a.td-sidebar-link {
-    font-weight: 400;
-    // background-color: green;
-  }
-
   // Sections that contain child pages are emphasised over leaf pages so the
   // navigation hierarchy reads clearly at a glance.
   & .td-sidebar-nav__section.with-child > a.td-sidebar-link,
@@ -371,9 +365,11 @@
     font-size: 1.2rem;
   }
 
-  & .td-sidebar-nav__section.without-child > a.td-sidebar-link {
-    font-weight: 400;
-    
+  // Leaf pages
+  & .td-sidebar-nav__section.without-child a.td-sidebar-link {
+    font-family: "Qanelas Soft Thin", sans-serif;
+    font-weight: 100;
+    // background-color: green;
   }
 
   & .td-sidebar-link:hover,
